@@ -13,8 +13,8 @@ Technologies used: React, Vite, CSS, Typescript.
 
 # Project Directory Structure
 
- <pre> ```plaintext T-shirt-Designer/ ├── node_modules/ ├── public/ │ ├── vite.svg │ └── favicon.ico ├── src/ │ ├── assets/ │ │ └── react.svg │ ├── components/ │ │ └── (additional components if any) │ ├── App.tsx │ ├── main.tsx │ ├── index.css │ └── vite-env.d.ts ├── .gitignore ├── index.html ├── package.json ├── tsconfig.json ├── tsconfig.node.json ├── vite.config.ts └── README.md ``` </pre>
 
+![Project Structure tree](image.png)
 
 ## src/: Contains the source code of your application.
 ## assets/: Contains static assets like images, fonts, etc.
