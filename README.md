@@ -104,3 +104,13 @@ useEffect(() => {
   }, []);
 
   const theme = themes[themeIndex];
+
+
+
+deploy settings: 
+
+npm run deploy
+
+npm run build 
+
+master branch
