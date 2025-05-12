@@ -107,10 +107,23 @@ useEffect(() => {
 
 
 
-deploy settings: 
+# Deploy settings: 
 
-npm run deploy
+build command: npm run build 
+branch: master
+output directory: dist
 
-npm run build 
+### Changes in vite.config.ts:
 
-master branch
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: 'dist'
+  },
+  base: '/' 
+});
+
+Add this to package.json scripts:  `"deploy": "npm run build && echo 'Build successful'"`
