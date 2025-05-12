@@ -59,7 +59,7 @@ Layout for form inputs, image upload area and ASCII art display was directly tak
 
 The final page had color and responsiveness issues. One issue was where the form fields in smaller screens, specifically below width 405px , would overflow out of the page scope. This was fixed by adding media queries to limit the size of the fields in small screens.
 
-## The upload click event was dargdown functions were functional, but the dragdown did not change the state of the upload button on successful upload, added logic to handle the drop event, process the file and update state as necessary.
+The upload click event was dargdown functions were functional, but the dragdown did not change the state of the upload button on successful upload, added logic to handle the drop event, process the file and update state as necessary.
 
 
 const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
