@@ -1,9 +1,9 @@
-# To run: use `npm run dev`
+To run: use `npm run dev`
 
 
-# Setup: Project directory made using npm create vite@latest using typescript and vanilla CSS.
+Setup: Project was directory made using `npm create vite@latest` using typescript and vanilla CSS.
 
-#Technologies used: React, Vite, CSS, Typescript.
+Technologies used: React, Vite, CSS, Typescript.
 
 
 
@@ -12,27 +12,8 @@
 `npm install react-hook-form`
 
 # Project Directory Structure
-T-shirt-Designer/
-├── node_modules/
-├── public/
-│   ├── vite.svg
-│   └── favicon.ico
-├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── components/
-│   │   └── (additional components if any)
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-│   └── vite-env.d.ts
-├── .gitignore
-├── index.html
-├── package.json
-├── tsconfig.json
-├── tsconfig.node.json
-├── vite.config.ts
-└── README.md
+<pre> ```plaintext T-shirt-Designer/ ├── node_modules/ ├── public/ │ ├── vite.svg │ └── favicon.ico ├── src/ │ ├── assets/ │ │ └── react.svg │ ├── components/ │ │ └── (additional components if any) │ ├── App.tsx │ ├── main.tsx │ ├── index.css │ └── vite-env.d.ts ├── .gitignore ├── index.html ├── package.json ├── tsconfig.json ├── tsconfig.node.json ├── vite.config.ts └── README.md ``` </pre>
+This will render properly in GitHub and preserve your tree formatting.
 
 ## src/: Contains the source code of your application.
 ## assets/: Contains static assets like images, fonts, etc.
